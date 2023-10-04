@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    display: block;
+    overflow: hidden;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: white;
+    background-color: initial;
+}
+
+.container {
+    position: relative;
+}
+
+.container * {
+    position: absolute;
+}
+
+.header, .main-content {
+    background-image: linear-gradient(to right, #0a0f4a, #200633);
+}
+
+.website-title {
+    top: 5px;
+    left: 10px;
+    font-size: 40px;
+}
+
+.main-content {
+    height: 86vh;
+}
+
+.main-content .container div {
+    left: 40vw;
+}
+
+.logo {
+    top: 15vh;
+    left: 20vw;
+    width: 300px;
+    height: 300px;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+.about-title {
+    top: 13vh;
+    font-size: 75px;
+}
+
+.about-text {
+    top: 42vh;
+    font-size: 20px;
+    color: #e8e8e8;
+}
+
+.gmail {
+    top: 68vh;
+    font-size: 35px;
+}
+
+.footer-content {
+    height: 14vh;
+    background-color: #191919;
+}
+
+.connections {
+    display: inline-block;
+}
+
+.connections a img {
+    display: block;
+    transition: opacity 0.3s ease;
+}
+
+.connections a img:hover {
+    opacity: 0.5;
+}
+
+.connections a img {
+    top: 2vh;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.github {
+    left: 40vw;
+}
+
+.discord {
+    left: 47vw;
+}
+
+.youtube {
+    left: 54vw;
+}
+
+.website-version {
+    top: 10vh;
+    left: 87vw;
+    font-size: 20px;
+    color: gray;
+}
