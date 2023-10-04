@@ -1,0 +1,13 @@
+# Change Log
+
+## Version 0.2
+
+**Major Updates**
+- The website is now responsive and able to fit in different display resolutions and sizes
+- Added theme support (dark & light), which can be toggled between by clicking the eye icon
+- Changed background color and font
+
+**Minor Updates**
+- Restructured and reorganized HTML and CSS codebase
+- Updated profile image and description
+- Added version information at the bottom of the webpage

@@ -2,50 +2,50 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ethereal - Colin Yeo</title>
+        <meta name="description" content="Ethereal / Colin Yeo's personal website">
+        <meta name="keywords" content="website, personal, ethereal, colin, yeo">
+        <meta name="author" content="Colin Yeo">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <link rel="stylesheet" href="style.css">
+        <script src="index.js" defer></script>
+        <title>Ethereal - Colin Yeo</title>
     </head>
     <body>
-        <!-- Header -->
-        <header class="header">
-            <div class="container">
-                <div class="website-title">Ethereal</div>
+        <header>
+            <div class="px-1 py-1 flex justify-between items-center">
+                <h2>Ethereal</h2>
+                <i id="theme-toggle" class="btn fa fa-eye"></i>
             </div>
         </header>
-        <!-- Main Content -->
-        <section class="main-content">
-            <div class="container">
-                <img class="logo" src="res/images/logo.jpg" alt="Logo">
-                <div class="about-title"> Colin <br> Yeo </div>
-                <div class="about-text">
-                    Greetings, my name is Colin Yeo, you may refer to me as Ethereal.<br>
-                    I am currently an intermediate programmer, mostly specializing<br>
-                    in game and desktop app development. I'm looking forward to create<br>
-                    content, learn more about web  development, android app development and<br>
-                    much more! As a programmer, I like to learn a lot of stuff, such<br>
-                    as mathematics, physics, etc.<br>
+        <main>
+            <div class="px-2 py-2 flex justify-center flex-wrap-main">
+                <img class="profile-img" src="assets/profile-image.jpg" alt="Profile Image">
+                <div class="maxw-1">
+                    <h1>Colin<br>Yeo</h1>
+                    <p>
+                        Salutations! I am <b>Colin Yeo</b>, or you may refer to me
+                        as <b>Ethereal</b>, currently <b>a programmer, and a tech & science 
+                        enthusiast</b>. My life has always been driven by a passion
+                        of relentless <b>learning, exploring, thinking, and creating</b>.
+                    </p>
                 </div>
-                <div class="gmail">Gmail: colinyeo86@gmail.com</div>
             </div>
-        </section>
-        <!-- Footer Content -->
-        <section class="footer-content">
-            <div class="container">
-                <div class="connections">
-                    <a class="github" href="https://github.com/Ethereal86" target="_blank">
-                        <img src="res/images/github.jpg" alt="GitHub">
-                    </a>
-                    <a class="discord" href="https://discord.com/users/1001765570926092309" target="_blank">
-                        <img src="res/images/discord.jpg" alt="Discord">
-                    </a>
-                    <a class="youtube" href="https://www.youtube.com/channel/UCdiNOecvN8072iwfESx419A" target="_blank">
-                        <img src="res/images/youtube.jpg" alt="YouTube">
-                    </a>
+        </main>
+        <footer>
+            <div class="py-2 text-center">
+                <p>Gmail: colinyeo86@gmail.com</p>
+                <h3>Reach me on</h3>
+                <div class="flex justify-center">
+                    <a class="fa-brands fa-github btn" href="https://github.com/Ethereal86" target="_blank"></a>
+                    <a class="fa-brands fa-discord btn" href="https://discord.com/users/1001765570926092309" target="_blank"></a>
+                    <a class="fa-brands fa-youtube btn" href="https://www.youtube.com/channel/UCdiNOecvN8072iwfESx419A" target="_blank"></a>
                 </div>
-                <div class="website-version">Website Version: v0.1</h1>
+                <p>Version: 0.2</p>
             </div>
-        </section>
+        </footer>
     </body>
 </html>
